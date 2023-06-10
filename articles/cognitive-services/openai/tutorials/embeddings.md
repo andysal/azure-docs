@@ -281,7 +281,7 @@ decode = tokenizer.decode_tokens_bytes(sample_encode)
 decode
 ```
 
-For our docs we're intentionally truncating the output, but running this command in your environment will return the full text from index zero tokenized into chunks. You can see that in some cases an entire word is represented with a single token whereas in others parts of words are split across multiple tokens.
+For our docs we've intentionally truncating the output, but running this command in your environment will return the full text from index zero tokenized into chunks. You can see that in some cases an entire word is represented with a single token whereas in others parts of words are split across multiple tokens.
 
 ```output
 [b'SECTION',
